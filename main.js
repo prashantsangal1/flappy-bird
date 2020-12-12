@@ -6,10 +6,10 @@
     var score;
 //loading images
     function preload(){
-        tunnelImg = loadImage("images/pipe.png");
-        bgImg = loadImage("images/Untitled.png");
-        birdImg = loadImage("images/flappybird.gif");
-        tunnelImg2 = loadImage("images/pipe2.png")
+        tunnelImg = loadImage("pipe.png");
+        bgImg = loadImage("Untitled.png");
+        birdImg = loadImage("flappybird.gif");
+        tunnelImg2 = loadImage("pipe2.png")
     }
 //setup
     function setup(){
