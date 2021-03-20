@@ -33,6 +33,8 @@
     }
 //main code
     function draw(){
+        camera.position.x = width/2
+        camera.position.y = bird.y
         background("white");
         bg.velocityX = -(3 + score/100)
         bird.velocityY = 4;
